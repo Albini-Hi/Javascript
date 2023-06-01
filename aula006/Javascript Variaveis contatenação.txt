@@ -1,0 +1,80 @@
+
+Video 2 módulo B
+
+(number + number) para adição
+(String + string) para concatenação
+
+ EXEMPLO 
+Concatenação.
+
+> var s = 'javascript'
+undefined
+> s
+'javascript'
+> 'Eu estou estudando s'
+'Eu estou estudando s'
+> 'Eu estou estudando ' + s
+'Eu estou estudando javascript'
+
+FIm EXEMPLO.
+
+----------------------------------------------------------
+
+plasrouder
+
+usar crase (shift e Botão ao lado do p) ``
+
+EXEMPLO
+
+<script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt(' Digite outro número'))
+        var s = n1 + n2
+        window.alert('A soma dos valores é: ' + s)
+    </script>
+
+
+        /* window.alert(`A soma entre ${n1} +  ${n2} é = ${s}`)*/
+fim exemplo
+
+-------------------------------------------------------------------
+
+s.length         // quantos caracteres a string tem.
+s.toUpperCase()  // tudo para "MAIUSCULA"
+s.toLowerCase()  // tudo "minuscula"
+
+
+<script>
+        var nome = window.prompt('What is your name?')
+        document.writeln(`<h1>Olá,${nome}! Seu nome tem ${nome.length} letras.</h1>`)
+        document.writeln(`Seu <strong>nome</strong> em maiúscula é ${nome.toUpperCase()}`)
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
