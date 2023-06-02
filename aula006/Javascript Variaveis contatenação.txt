@@ -54,11 +54,7 @@ s.toLowerCase()  // tudo "minuscula"                 ( ...       em minuscula
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
- n1.tolocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
-
-
-
-
+ n1.tolocaleString('pt-BR', {style: 'currency', currency: 'BRL'})  **não esqueça das virgulas.
 
 
 
