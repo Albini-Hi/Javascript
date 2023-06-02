@@ -17,7 +17,8 @@
     <script>
         var nome = window.prompt('What is your name?')
         document.writeln(`<h1>Olá,${nome}! Seu nome tem ${nome.length} letras.</h1>`)
-        document.writeln(`Seu <strong>nome</strong> em maiúscula é ${nome.toUpperCase()}`)
+        document.writeln(`Seu <strong>nome</strong> em maiúscula é ${nome.toUpperCase()}<br/>`)
+        document.writeln(`Seu nome em minúsculas é ${nome.toLocaleLowerCase()}`)
     </script>
 </body>
 </html>

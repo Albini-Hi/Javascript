@@ -12,9 +12,9 @@ undefined
 > s
 'javascript'
 > 'Eu estou estudando s'
-'Eu estou estudando s'
+'Eu estou estudando s' (Não aconteceu nada)
 > 'Eu estou estudando ' + s
-'Eu estou estudando javascript'
+'Eu estou estudando javascript' (aqui deu certo com a concatenação +)
 
 FIm EXEMPLO.
 
@@ -27,21 +27,21 @@ usar crase (shift e Botão ao lado do p) ``
 EXEMPLO
 
 <script>
-        var n1 = Number(window.prompt('Digite um número: '))
-        var n2 = Number(window.prompt(' Digite outro número'))
+        var n1 = Number(window.prompt('Digite um número: ')) 4
+        var n2 = Number(window.prompt(' Digite outro número')) 2
         var s = n1 + n2
-        window.alert('A soma dos valores é: ' + s)
+        window.alert('A soma dos valores é: ' + s) (Sem a plasrouder ${}
     </script>
 
 
-        /* window.alert(`A soma entre ${n1} +  ${n2} é = ${s}`)*/
+        /* window.alert(`A soma entre ${n1} +  ${n2} é = ${s}`)*/ (AQUI com a plasrouder o resultado que aparece na tela é => a soma entre 4 + 2 é = 6
 fim exemplo
 
 -------------------------------------------------------------------
 
-s.length         // quantos caracteres a string tem.
-s.toUpperCase()  // tudo para "MAIUSCULA"
-s.toLowerCase()  // tudo "minuscula"
+s.length         // quantos caracteres a string tem. (conta quantos caratere
+s.toUpperCase()  // tudo para "MAIUSCULA"            (transforma em letras maiuscula
+s.toLowerCase()  // tudo "minuscula"                 ( ...       em minuscula
 
 
 <script>
@@ -52,9 +52,9 @@ s.toLowerCase()  // tudo "minuscula"
 
 
 
+----------------------------------------------------------------------------------------------------------------------------------
 
-
-
+ n1.tolocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 
 
 
