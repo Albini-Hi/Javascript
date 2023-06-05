@@ -88,10 +88,44 @@ precedencia 5+ (3/2)
 
 se quiser alterar a ordem de precedencia coloque em Parenteses (5+3)/2 = 4 agora está certo!
 
+Ordem de precedencia
+
+| ()
+| **
+| *
+| * / %
+| + -
+\/
+
+Auto-Atribuições
+
+var n = 3  -> 3
+n = n + 4  n => 7
+
+> n = n**2
+4
+> n +=4      sinal de + e = só serve se a variavel for n + n
+8
 
 
-
-
+Incremento
+var x = 5
+5
+x= x+ 1 
+6 
+x ++ 
+6
+7
+x++
+8
+--X
+7
+--X
+6
+++X
+7
+++X
+8
 
 
 
