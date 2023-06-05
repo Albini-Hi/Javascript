@@ -57,6 +57,42 @@ s.toLowerCase()  // tudo "minuscula"                 ( ...       em minuscula
  n1.tolocaleString('pt-BR', {style: 'currency', currency: 'BRL'})  **não esqueça das virgulas.
 
 
+--/---/--/-/-----/--/-/--/---/------/---/-------/-/--------/------/---------/-------/---------/--------/------/-------/------/----
+
+                                       Aula 07
+
+Operadores
+
+Aritiméticos
+Atribuição
+Relacionais
+Lógicos
+Ternário
+
+Operadores aritiméticos
+     
+    5  + 2  = 7
+    5  - 2  = 3
+    5  * 2  = 10
+    5  / 2  = 2.5
+    5  % 2  = 1     % (resto da divisão quando for colocar a virgula esta na hora de parar!)
+    5  ** 2 = 25    ** (ao quadrado 5 duas veze multiplicado por ele ou três ex: 5**3 5x5x5=125)
+
+ordem de precedencia
+
+5+3/2
+8/2 = 4 errado
+
+precedencia 5+ (3/2)
+            5+ 1.5 = 6.5
+
+se quiser alterar a ordem de precedencia coloque em Parenteses (5+3)/2 = 4 agora está certo!
+
+
+
+
+
+
 
 
 
