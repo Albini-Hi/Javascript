@@ -128,9 +128,40 @@ x++
 8
 
 
+-----------------06/06/23----------------------------------------------
+
+
+		Operadores
+Relacionais
+Lógicos
+Ternário
+
+Relacionais
+
+  	> Maior
+  	< Menor
+	>= Maior ou =
+	<= Menor ou =
+	== Igual
+	!= Diferente
+
+todo resultado de uma operador relacional vai ser uma expressaõ booleana true ou false  
+
+	5 > 2   True
+  	7 < 3   False
+	8 >= 8  true
+	9 <= 7  false
+	5 == 5  true
+	4 != 4  false
 
 
 
+operador relacional de IDENTIDADE
+
+	5 == 5    true
+	5 == "5"  true (5 é um numero e "5" é uma string mais tem o mesmo peso)
+	5 === "5" false (=== igual e idêntico não tem o mesmo valor , mas não são do mesmo tipo!
+	5 === 5   true
 
 
 
