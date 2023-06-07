@@ -164,6 +164,50 @@ operador relacional de IDENTIDADE
 	5 === 5   true
 
 
+----------------------------------------------
+
+Operadores Lógicos
+
+	!    Negação   (não) -> Eu quero uma caneta, mas ela não pode ser azul, pode ser qualquer outra cor só não pode ser azul.
+	&&   conjução  (e)   -> Eu quero uma caneta Azul e uma vermelha tem que ser as duas
+	||   disjunção (ou)  -> eu quero uma caneta azul ou vermelha pode ser qualquer uma das duas, se foras duas melhor ainda , se não me der nehuma ou 
+				cor diferente ai eu fico bravo.
+
+--------------------------------------------------------------
+
+Operadores Ternario
+
+	? : 
+
+	teste ?  true : false
+
+	media >=7 ? "aprovado" : "reprovado"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
