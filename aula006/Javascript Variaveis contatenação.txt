@@ -183,6 +183,16 @@ Operadores Ternario
 
 	media >=7 ? "aprovado" : "reprovado"
 
+------------------------------07/06/23------------------------
+Módulo C
+
+Ativando as extensões
+
+Watch in Chrome não tinha Instalei Live Server
+
+Live Server funciona como um atualizador automatico do codigo no chrome!
+
+
 
 
 
