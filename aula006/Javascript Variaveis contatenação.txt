@@ -192,6 +192,36 @@ Watch in Chrome não tinha Instalei Live Server
 
 Live Server funciona como um atualizador automatico do codigo no chrome!
 
+----------
+
+-----------------------------------------08/06/23-----------------------------------------------------------
+
+Tudo que tem dentro da arvore DOM é um elemento (ex: documents, head, body, h1, p, stong, @, 
+
+ e existe varias formas de navegar dentro desses elemento selecionado
+
+5 formas do seletor
+
+     	por Marca 
+  getElementsByTagName()
+
+     	por ID
+  getElementById()
+
+	por Nome
+  getElementsByName()
+
+	por Classe
+  getElementsByClassName()
+
+	por Seletor
+  querySelector()
+  querySelectorAll()
+	
+
+Obs. class se representa com uma #
+     Id se reprenta com um .
+	
 
 
 
