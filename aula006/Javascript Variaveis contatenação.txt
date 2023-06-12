@@ -196,13 +196,18 @@ Live Server funciona como um atualizador automatico do codigo no chrome!
 
 -----------------------------------------08/06/23-----------------------------------------------------------
 
+DOM
+	'Document
+	 Object
+	 Model'
+
 Tudo que tem dentro da arvore DOM é um elemento (ex: documents, head, body, h1, p, stong, @, 
 
  e existe varias formas de navegar dentro desses elemento selecionado
 
 5 formas do seletor
 
-     	por Marca 
+     	por TagName
   getElementsByTagName()
 
      	por ID
@@ -221,7 +226,18 @@ Tudo que tem dentro da arvore DOM é um elemento (ex: documents, head, body, h1,
 
 Obs. class se representa com uma #
      Id se reprenta com um .
-	
+
+-------------------------------------------12/06/23--------------------------------------------------
+
+	EVENTOS DOM (é tudo aquilo que pode acontecer com um elemento neste caso uma div)
+
+	<DIV>
+
+eventos de mause
+
+	mouseenter mousemov 
+	mousedown  mouseup
+	click      mouseout
 
 
 
