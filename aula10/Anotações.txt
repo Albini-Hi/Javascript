@@ -44,6 +44,16 @@ eventos de mause
 	click      mouseout
 
 
+com a sua id "area" criada , abra uma style configure sua id com cor, tamanho da font, width, heigth
+depois, abra um script 
+crie uma var a 
+depois faca uns elementos addEventListerner (click depois um com mouseentre mouseout e de os nomes clicar
+entrar
+sair.
+ depois crie uma faction clicar
+faction  entrou
+faction saiu
+com a variavel a.innerText =Saiu ex.  
 
 
 
