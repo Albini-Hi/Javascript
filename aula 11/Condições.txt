@@ -1,0 +1,27 @@
+
+
+		Condições em JS
+
+	Sequências
+
+	var n = 3
+
+	n += 2
+
+	window.alert(n)
+
+
+	Tipos de condições 
+Simples                               
+ 
+	if(condição) {
+           True
+	}
+
+
+
+	if(condição) {
+	True
+	} else (condição) {
+	  False 
+	  }
