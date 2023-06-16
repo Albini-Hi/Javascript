@@ -21,13 +21,32 @@
             var paisori = document.getElementById('pais')
             var res = document.querySelector('div#res')
             var nasceu = (paisori.value)
-            res.innerHTML = `Você nasceu no ${nasceu}, `
+  
             if (nasceu == 'Brasil') {
                 res.innerHTML += `Você é Brasileiro!`
             } else {res.innerHTML += `Você é estrangeiro!`}
 
         }
     </script>
+    <h2>Qual é sua idade? </h2>
+    Que ano nós estamos? <input type="number" name="atual" id="atual"><br>
+    Que ano você Nasceu? <input type="number" name="idade" id="idade">
+    <input type="button" value="validar" onclick="validar()">
+    <div id="ano"></div>
+    <script>
+        function validar() {
+            var nasc = document.getElementById('idade')
+            var atual = document.getElementById('atual')
+            var ano = document.querySelector('div#ano')
+            var atuali = Number(atual.value)
+            var dado = Number(nasc.value)
+            var resp = atuali - dado
+         
+            if (resp >= 18) {ano.innerHTML += `Você tem ${resp} anos e já é maior de idade.`} 
+                else { ano.innerHTML += `Você tem ${resp} anos e ainda é  de menor, vai ter que esperar!`}
+        }
+    </script>
+
 
 </body>
 </html>
