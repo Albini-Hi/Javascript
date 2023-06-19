@@ -1,0 +1,6 @@
+var idade = 22
+console.log(`Você tem ${idade} anos`)
+
+
+
+
