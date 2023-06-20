@@ -29,7 +29,6 @@
         }
     </script>
     <h2>Qual é sua idade? </h2>
-    Que ano nós estamos? <input type="number" name="atual" id="atual"><br>
     Que ano você Nasceu? <input type="number" name="idade" id="idade">
     <input type="button" value="validar" onclick="validar()">
     <div id="ano"></div>
@@ -38,7 +37,7 @@
             var nasc = document.getElementById('idade')
             var atual = document.getElementById('atual')
             var ano = document.querySelector('div#ano')
-            var atuali = Number(atual.value)
+            var atuali = 2023
             var dado = Number(nasc.value)
             var resp = atuali - dado
          
