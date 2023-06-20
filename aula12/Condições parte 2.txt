@@ -1,0 +1,29 @@
+qual a diferença que eu percebi até agora do visualg (o Portugol)
+ para exibir o conteúddo na página do html precisa do var.innerHtml = `texto ${var} texto `
+deve se usar o sinal de + no segundo innerHtml se quiser repetir o comando de cima e usar crase 
+para exibir o resultado tudo que estiver dentro da crase será exibido
+
+a árvore é
+
+	!
+	 pt_BR
+	 título
+       body
+          h1, div, p 
+          input 
+          input buttom
+           script
+	    function
+	     var
+	     innerhtml
+	     if
+	      else
+         script
+       body 
+
+------------------------19/06/2023------------------------------------
+
+Condições Aninhadas
+
+não é identação
+É indentação
