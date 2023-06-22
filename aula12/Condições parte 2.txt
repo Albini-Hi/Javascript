@@ -27,3 +27,21 @@ Condições Aninhadas
 
 não é identação
 É indentação
+
+para exibir a hora atual, crie uma variavel que se refira a hora atual ex. var agora = New Date() // lembrando tem que ter as letras maiuscula e minusculas e os parenteses// .Depois crie outra variável var hora = agora.getHours() //fiz referência a var agora + .getHours() esse código vai exibir a hora atual sem os minutos.
+
+-----------------------22/06/2023---------------------------------------
+
+Condições Múltiplas
+
+Switch (expressaõ) {
+	case valor 1:
+	      [        ]
+		  break
+	caso valor 2:
+		  [        ]
+	      break
+	case valor 3: 
+		  [        ]
+		  break	  	  
+} //Não esqueça do break, senão o programa lê do case escolhido até o final do código.
