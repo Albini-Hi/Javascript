@@ -4,7 +4,7 @@ function verificar() {
     var fano = document.getElementById('txtano')
     var res = document.getElementById('res')
     if (fano.value.length == 0 || fano.value > ano) {
-        window.alert('[ERRo] Verefique os dados e tente novamente')
+        window.alert('[ERRO] Verefique os dados e tente novamente')
     } else {
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
@@ -25,6 +25,7 @@ function verificar() {
             } else {
                 //senhor
                 img.setAttribute('src','senhor.png')
+                
             }
         } else if (fsex[1].checked) {
             genero = 'Mulher'
