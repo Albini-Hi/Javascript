@@ -1,0 +1,23 @@
+
+----------------29/06/23-----------
+sequências 
+repetir de um ponto até outro
+comer 8 pedaços de pizza come um pedaço depois o outro e assim por diante até acabar
+
+condições
+
+começa com um teste lógico 
+se tiver um pedaço de pizza de cebola eu não como.
+se for de calabresa eu como.
+
+teste lógico verificando a condição no início.
+
+Repetições
+while (condição) while em português significa enquanto.
+
+começa com um laço
+uma condição lógica verdadeiro ou falso 
+enquanto for verdade ele executa e volta para o teste fazendo um luping (laço) repetindo o camando enquanto a condição for verdade se mudar ele vai para o final e termina o código.
+
+
+
