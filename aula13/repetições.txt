@@ -38,3 +38,18 @@ var c = 1
 } while (c <= 6)
 
 faça escreva tudo bem enquanto c for menor ou igual a 6.
+
+
+------------------------------------03/07/2023------------------------------------------
+ESTRUTURA DE REPETIÇÃO PARTE 2
+
+estrutura de repetição com variável de controle.
+(inicio, controle, incremento)
+
+reoetição com encremento dentro de um exagono irregular
+dentro desta estrutura havera o inicio; teste lógico e depois do 1 looping haverá a leitura do incremento 
+repete o looping enquanto o teste for verdadeiro
+
+for (inicio, teste, incremento) {
+    
+}
