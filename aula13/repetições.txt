@@ -53,3 +53,8 @@ repete o looping enquanto o teste for verdadeiro
 for (inicio, teste, incremento) {
     
 }
+ex: for (var = c ; c <= 6; c++) {
+    console.log (c)
+}
+
+
