@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Hora do Dia</h1>
+        <h1>Vamos Contar</h1>
     </header>
     <section>
         <div>
-            Teste
+            <p>Início <input type="number" name="iniciotxt" id="iniciotxt"></p>
+
+            <p>Fim <input type="number" name="fimtxt" id="fimtxt"></p>
+
+            <p>Passo <input type="number" name="passotxt" id="passotxt"></p>
         </div>
-        <div>
-            Olá
+
+        <div id="res">
+            <input type="button" value="contar" onclick="contar()">
         </div>
+        
     </section>
     <footer>
         <p>&copy; Angelo Albini</p>
