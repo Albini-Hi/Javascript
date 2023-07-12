@@ -1,0 +1,13 @@
+Variaveis compostas 
+
+sempre começa contando do 0
+
+atalhos 
+
+let num = [5,8,4,7]
+
+num.push(7)  -> acrescenta um ultimo numero ou elemento
+
+num.length -> no java script length não tem parenteses -> length vai contar quantos elemetos a na variavel
+
+num.sort() -> coloca os elementos em ordem crescente -> [4,5,7,8]
