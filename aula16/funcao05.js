@@ -7,7 +7,7 @@ function fatorial(n) {
         return n * fatorial(n-1)
     }
 }
-console.log(fatorial(4))
+console.log(fatorial(3))
 
 /*
 5! é a mesma coisa que 5x4x3x2x1
